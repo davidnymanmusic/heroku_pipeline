@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello');
 });
 app.get('/new', (req, res) => {
-  res.send('HEY WORLD');
+  res.send('Hello WORLD');
 });
 app.get('/another', (req, res) => {
   res.send('WHAT THE HELL, THIS IS COOL');
